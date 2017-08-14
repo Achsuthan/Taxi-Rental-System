@@ -1,0 +1,176 @@
+#body
+{
+	margin: 50px;
+	-moz-box-shadow: 0 0 20px #ccc; 
+	-webkit-box-shadow: 0 0 20px #ccc; 
+	box-shadow: 0 0 20px #CFCFCF; 
+	background-color: rgba(255,255,255,0.7);	
+}
+
+/*signin register*/
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fed897;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fed897;
+	box-shadow:inset 0px 1px 0px 0px #fed897;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f8a500), color-stop(1, #ffc44f) );
+	background:-moz-linear-gradient( center top, #f8a500 5%, #ffc44f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8a500', endColorstr='#ffc44f');
+	background-color:#f8a500;
+	-webkit-border-top-left-radius:19px;
+	-moz-border-radius-topleft:19px;
+	border-top-left-radius:19px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:19px;
+	-moz-border-radius-bottomright:19px;
+	border-bottom-right-radius:19px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #eda933;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:80px;
+	text-decoration:none;
+	text-align:center;
+}
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc44f), color-stop(1, #f8a500) );
+	background:-moz-linear-gradient( center top, #ffc44f 5%, #f8a500 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc44f', endColorstr='#f8a500');
+	background-color:#ffc44f;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+/* end signin register*/
+
+/*logo*/
+#_2logo
+{
+	width: 20%;
+	height: 20%;	
+	position: absolute;
+	left: 550px;
+	top: 60px;
+}
+
+
+._2link /* button design */
+{
+	-moz-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e) );
+	background:-moz-linear-gradient( center top, #f0c911 5%, #f2ab1e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c911', endColorstr='#f2ab1e');
+	background-color:#f0c911;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+	text-indent:0;
+	border:1px solid #e65f44;
+	display:inline-block;
+	color:#c92200;
+	font-family:Times New Roman;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ded17c;
+}
+/*button links*/			
+/*#_2malinks
+{
+	text-align: center;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 16px;
+}*/
+
+a._2link:link
+{
+	color:white;
+	text-decoration:none;
+}
+/*a._2link:visited
+{
+	color: black;
+	text-decoration: none;
+}*/
+._2link:hover
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911) );
+	background:-moz-linear-gradient( center top, #f2ab1e 5%, #f0c911 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2ab1e', endColorstr='#f0c911');
+	background-color:#f2ab1e;
+}
+._2link:active
+{
+	position:relative;
+	top:1px;
+}
+
+/*footer*/
+#likes
+{
+	margin-left: 40px;
+}
+
+#_2malinks2
+{
+	text-align: center;
+	font-family: "Calibri";
+	font-weight:700;
+	font-size: 16px;
+	margin-right: 20px;
+}
+
+a._2link2:link
+{
+	color: black;
+	text-decoration: none;
+}
+a._2link2:visited
+{
+	color: black;
+	text-decoration: none;
+}
+a._2link2:hover
+{
+	border-radius: 5px;
+	border-color: black;
+	background-color: white;
+	opacity: 0.5;
+	text-decoration: none;
+}
+a._2link2:active
+{
+	color: black;
+	text-decoration: none;
+}
+
+#copyright
+{
+	font-family: "Calibri";
+}
